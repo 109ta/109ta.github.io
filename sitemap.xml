@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://109ta.github.io/about/index.html</loc>
+    
+    <lastmod>2018-09-09T12:07:01.106Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://109ta.github.io/tags/index.html</loc>
     
     <lastmod>2018-09-09T10:37:17.877Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://109ta.github.io/categories/index.html</loc>
     
     <lastmod>2018-09-09T10:36:50.623Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://109ta.github.io/about/index.html</loc>
-    
-    <lastmod>2018-09-09T10:36:30.810Z</lastmod>
     
   </url>
   
