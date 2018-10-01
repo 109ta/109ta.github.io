@@ -86,7 +86,7 @@
 <meta name="description" content="security never sleeps">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Keep Fighting!">
-<meta property="og:url" content="https://109ta.github.io/archives/2018/index.html">
+<meta property="og:url" content="https://109ta.github.io/hacker/archives/2018/index.html">
 <meta property="og:site_name" content="Keep Fighting!">
 <meta property="og:description" content="security never sleeps">
 <meta property="og:locale" content="zh-Hans">
@@ -102,7 +102,7 @@
     root: '/hacker/',
     scheme: 'Pisces',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -122,7 +122,7 @@
 
 
 
-  <link rel="canonical" href="https://109ta.github.io/archives/2018/"/>
+  <link rel="canonical" href="https://109ta.github.io/hacker/archives/2018/"/>
 
 
 
@@ -212,12 +212,12 @@
         </li>
       
         
-        <li class="menu-item menu-item-about">
-          <a href="/hacker/about/" rel="section">
+        <li class="menu-item menu-item-categories">
+          <a href="/hacker/categories/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
-            关于
+            分类
           </a>
         </li>
       
@@ -232,22 +232,22 @@
         </li>
       
         
-        <li class="menu-item menu-item-categories">
-          <a href="/hacker/categories/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
-            
-            分类
-          </a>
-        </li>
-      
-        
         <li class="menu-item menu-item-archives">
           <a href="/hacker/archives/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
             归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/hacker/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
           </a>
         </li>
       
@@ -500,6 +500,20 @@
 
           
           
+            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                Links
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://www.offensive-security.com/" title="offensive security" target="_blank">offensive security</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
 
           
 
@@ -527,18 +541,21 @@
   <span class="author" itemprop="copyrightHolder">旺德佛</span>
 
   
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count">73</span>
+  
 </div>
 
 
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
 
 
-  <span class="post-meta-divider">|</span>
-
-
-
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
 
 
 
@@ -558,6 +575,8 @@
     
       <div class="back-to-top">
         <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
         
       </div>
     
@@ -1211,6 +1230,9 @@
   
 
   
+
+  <script type="text/javascript" src="/lib/clipboard/src/clipboard.js"></script>
+<script type="text/javascript" src="/js/src/custom.js"></script>
 
 </body>
 </html>
