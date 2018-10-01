@@ -3,11 +3,11 @@
   <title>Keep Fighting!</title>
   
   
-  <link href="/hacker/atom.xml" rel="self"/>
+  <link href="/atom.xml" rel="self"/>
   
-  <link href="https://109ta.github.io/hacker/"/>
+  <link href="https://109ta.github.io/"/>
   <updated>2018-09-09T07:45:56.503Z</updated>
-  <id>https://109ta.github.io/hacker/</id>
+  <id>https://109ta.github.io/</id>
   
   <author>
     <name>旺德佛</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>My-First-Post</title>
-    <link href="https://109ta.github.io/hacker/2018/09/09/My-First-Post/"/>
-    <id>https://109ta.github.io/hacker/2018/09/09/My-First-Post/</id>
+    <link href="https://109ta.github.io/My-First-Post/"/>
+    <id>https://109ta.github.io/My-First-Post/</id>
     <published>2018-09-09T07:45:56.000Z</published>
     <updated>2018-09-09T07:45:56.503Z</updated>
     
@@ -32,8 +32,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://109ta.github.io/hacker/2018/09/09/hello-world/"/>
-    <id>https://109ta.github.io/hacker/2018/09/09/hello-world/</id>
+    <link href="https://109ta.github.io/hello-world/"/>
+    <id>https://109ta.github.io/hello-world/</id>
     <published>2018-09-09T07:43:19.148Z</published>
     <updated>2018-09-09T07:43:19.148Z</updated>
     
