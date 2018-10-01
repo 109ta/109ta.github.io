@@ -28,7 +28,7 @@ function createCopyBtns() {
         //值得注意的是：1.按钮默认隐藏，2.位置使用绝对位置 position: absolute; (position: fixed 也可以，需要修改代码)
         $(".post-body").before('<div id="copyBtn" style="opacity: 0; position: absolute;top:0px;display: none;line-height: 1; font-size:1.5em"><span id="imgCopy" ><i class="fa fa-paste fa-fw"></i></span><span id="imgSuccess" style="display: none;"><i class="fa fa-check-circle fa-fw" aria-hidden="true"></i></span>');
         //创建 复制 插件，绑定单机时间到 指定元素，支持JQuery
-        var clipboard = new Clipboard('#copyBtn', {
+        var clipboard = new ClipboardJS('#copyBtn', {
             target: function() {
                 //返回需要复制的元素内容
                 return document.querySelector("[copyFlag]");
